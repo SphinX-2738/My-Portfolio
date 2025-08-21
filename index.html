@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankur Sharma - DevOps Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <canvas id="background-canvas"></canvas>
+    
+    <!-- Floating Navigation -->
+    <nav class="floating-nav" id="floating-nav">
+        <a href="#hero" class="nav-item active" data-section="hero">
+            <i class="fas fa-home"></i>
+            <span>Home</span>
+        </a>
+        <a href="#about" class="nav-item" data-section="about">
+            <i class="fas fa-user"></i>
+            <span>About</span>
+        </a>
+        <a href="#skills" class="nav-item" data-section="skills">
+            <i class="fas fa-code"></i>
+            <span>Skills</span>
+        </a>
+        <a href="#projects" class="nav-item" data-section="projects">
+            <i class="fas fa-folder"></i>
+            <span>Projects</span>
+        </a>
+        <a href="#contact" class="nav-item" data-section="contact">
+            <i class="fas fa-envelope"></i>
+            <span>Contact</span>
+        </a>
+    </nav>
+
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="gradient-text">Ankur Sharma</span>
+                    </h1>
+                    <p class="hero-subtitle">DevOps Engineer & System Administrator</p>
+                    <p class="hero-description">
+                        Passionate about Python development, Linux systems, and DevOps practices. 
+                        I build efficient solutions and manage robust infrastructure with strong 
+                        leadership and problem-solving skills.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                        <a href="#projects" class="btn btn-secondary">View Projects</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="mailto:ankursharma.9955@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/ankur-sharma-37a0a3276/" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/SphinX-2738" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            I'm a dedicated DevOps Engineer with expertise in Python development and Linux system administration. 
+                            My journey in technology is driven by a passion for creating efficient, scalable solutions and 
+                            managing robust infrastructure.
+                        </p>
+                        <p>
+                            With strong foundations in Linux networking, command-line interfaces, and system automation, 
+                            I bring both technical expertise and leadership skills to every project. I excel at 
+                            problem-solving and critical thinking, always looking for innovative ways to optimize 
+                            processes and improve system reliability.
+                        </p>
+                        <p>
+                            My experience spans from developing Python-based management systems to working with 
+                            web technologies and backend development, giving me a comprehensive understanding 
+                            of the full technology stack.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-card" data-category="devops">
+                        <div class="skill-icon">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <h3 class="skill-title">DevOps & Infrastructure</h3>
+                        <div class="skill-items">
+                            <span class="skill-tag">System Administration</span>
+                            <span class="skill-tag">Infrastructure Management</span>
+                            <span class="skill-tag">Process Automation</span>
+                            <span class="skill-tag">Performance Monitoring</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card" data-category="programming">
+                        <div class="skill-icon">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <h3 class="skill-title">Programming Languages</h3>
+                        <div class="skill-items">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">PHP</span>
+                            <span class="skill-tag">Shell Scripting</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card" data-category="linux">
+                        <div class="skill-icon">
+                            <i class="fab fa-linux"></i>
+                        </div>
+                        <h3 class="skill-title">Linux Systems & Networking</h3>
+                        <div class="skill-items">
+                            <span class="skill-tag">Linux Administration</span>
+                            <span class="skill-tag">Network Security</span>
+                            <span class="skill-tag">System Configuration</span>
+                            <span class="skill-tag">Performance Tuning</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card" data-category="web">
+                        <div class="skill-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3 class="skill-title">Web Technologies</h3>
+                        <div class="skill-items">
+                            <span class="skill-tag">HTML/CSS</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">Frontend Development</span>
+                            <span class="skill-tag">Backend Integration</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card" data-category="soft">
+                        <div class="skill-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3 class="skill-title">Professional Skills</h3>
+                        <div class="skill-items">
+                            <span class="skill-tag">Leadership</span>
+                            <span class="skill-tag">Problem Solving</span>
+                            <span class="skill-tag">Critical Thinking</span>
+                            <span class="skill-tag">Team Collaboration</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card" data-project="spotify">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <i class="fas fa-music"></i>
+                            </div>
+                            <h3 class="project-title">Spotify Clone</h3>
+                            <button class="expand-btn" onclick="toggleProject(this)">
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                        </div>
+                        <p class="project-summary">A web-based music streaming application with modern UI and backend integration</p>
+                        <div class="project-details">
+                            <p class="project-description">
+                                Developed a comprehensive music streaming web application that replicates core Spotify functionality. 
+                                The project features a modern, responsive user interface with playlist management, music player controls, 
+                                and user authentication. Built with web technologies and PHP backend for robust data management and 
+                                user session handling.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML/CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">PHP</span>
+                                <span class="tech-tag">MySQL</span>
+                                <span class="tech-tag">Responsive Design</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-project="cli">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <i class="fas fa-terminal"></i>
+                            </div>
+                            <h3 class="project-title">College Management CLI</h3>
+                            <button class="expand-btn" onclick="toggleProject(this)">
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                        </div>
+                        <p class="project-summary">Python-based command-line interface for comprehensive college administration</p>
+                        <div class="project-details">
+                            <p class="project-description">
+                                Created a robust command-line interface system for college management operations. The application 
+                                handles student enrollment, course management, grade tracking, and administrative tasks through 
+                                an intuitive CLI. Features include data validation, file handling, and comprehensive error management 
+                                with a focus on system reliability and user experience.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">CLI Development</span>
+                                <span class="tech-tag">File Management</span>
+                                <span class="tech-tag">Data Validation</span>
+                                <span class="tech-tag">Error Handling</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <p class="contact-description">
+                            Ready to collaborate on your next project? Let's discuss how my DevOps expertise 
+                            and system administration skills can help bring your ideas to life.
+                        </p>
+                        <div class="contact-methods">
+                            <a href="mailto:ankursharma.9955@gmail.com" class="contact-method">
+                                <i class="fas fa-envelope"></i>
+                                <span>ankursharma.9955@gmail.com</span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/ankur-sharma-37a0a3276/" target="_blank" class="contact-method">
+                                <i class="fab fa-linkedin"></i>
+                                <span>LinkedIn Profile</span>
+                            </a>
+                            <a href="https://github.com/SphinX-2738" target="_blank" class="contact-method">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub Profile</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Ankur Sharma. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="mailto:ankursharma.9955@gmail.com">Email</a>
+                <a href="https://www.linkedin.com/in/ankur-sharma-37a0a3276/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/SphinX-2738" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
